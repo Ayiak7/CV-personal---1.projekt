@@ -1,0 +1,147 @@
+
+.første h1 
+{
+  background-color: rgb(133, 198, 230);
+  text-align: center;
+}
+
+.anden h1 
+{
+  background-color: rgb(133, 198, 230);
+  text-align: center;
+}
+
+.tredje h1 
+{
+  background-color: rgb(133, 198, 230);
+  text-align: center;
+}
+
+img
+{
+  max-width: 100%;
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  
+}
+
+footer
+{
+  text-align: center;
+  font-size: 15px;
+}
+
+nav 
+{
+  display: flex;
+  gap: 20px;
+  background-color: rgb(153, 167, 177);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: auto; 
+  width: fit-content;
+}
+
+nav a
+{
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.container /*cv*/
+{
+    display: flex;
+    width: 100%;
+}
+
+.sidebar 
+{
+    background-color: rgb(135, 147, 155);
+    color: rgb(255, 255, 255);
+    width: 30%;
+    padding: 20px;
+}
+
+.sidebar
+{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.sidebar h2 /*overskrift*/
+{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.sidebar ul 
+{
+    list-style: none;
+    padding: 0;
+}
+
+.content /*cv*/
+{
+    width: 70%;
+    padding: 30px;
+}
+
+.content h2 /*cv*/
+{
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content h3 /*cv*/
+{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+
+.cover /*portofolie*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d6c1c1;
+    text-align: center;
+}
+
+.cover h1 
+{
+    font-size: 45px;
+}
+
+.portfolio-pages 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+
+.quote-block blockquote 
+{
+    font-size: 24px;
+    font-style: Arial, Helvetica, sans-serif ;
+    color: #555;
+    border-left: 4px solid #ccc;
+    padding-left: 15px;
+}
